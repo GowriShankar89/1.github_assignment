@@ -1,9 +1,4 @@
-﻿________________
-
-
-  
-
-
+﻿##########
 
 GIT Assignment 3
 
@@ -30,10 +25,9 @@ GIT Assignment 3
 
 
 8. How can you distinguish between the git pull and git bring commands?
+The git pull command is actually a combination of two other commands, git fetch followed by git merge . 
+Git bring i couldnt find any 
 
 
 
-
-
-
-________________
+###########
