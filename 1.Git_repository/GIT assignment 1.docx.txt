@@ -4,26 +4,69 @@ GIT Assignment 1
 
 1. What is a git stash list?
 
+Ans :-  git-stash - Stash the changes in a dirty working directory away
+
+List the stash entries that you currently have. Each stash entry is listed with its name (e.g.  stash@{0} is the latest entry, stash@{1} is the one before, etc.), the name of the branch that was current when the entry was
+           made, and a short description of the commit the entry was based on.
+
+               stash@{0}: WIP on submit: 6ebd0e2... Update git-stash documentation
+               stash@{1}: On master: 9cc0589... Add git-stash
+
 
 2. How do you get a list of all the files that have been updated in a given commit?
+
+Ans :-  git status will give list of all the files that have been updated in a given commit
+
+DataScientist:/run/media/gowrishankarphd/Gowri Shankar/3.Learning/11.One neuron assignment/1.github_assignment/1.Git_repository->git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   GIT assignment 1.docx.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
 
 
 3. What is a Git merge conflict?
 
+Git Merge conflict example.suppose if i have two branch say 1.Main 2.DEV and 1.Main has 1 file eg 1.txt and 2.Dev has 1 file 1.txt and i already merged .suppoese if i change 3 line in 1.txt in Dev branch and try will
+have git merge conflict either i need to manually change dev branch 1.txt line 3.  
 
 4. How do you distinguish between git fetch and git pull? How do you differentiate between Git Merge and Git Rebase?
 
+git fetch is the command that tells your local git to retrieve the latest meta-data info from the original (yet doesn’t do any file transferring. It’s more like just checking to see if there are any changes available).
+
+git pull on the other hand does that AND brings (copy) those changes from the remote repository.
+
+Git rebase and merge both integrate changes from one branch into another. Where they differ is how it's done. Git rebase moves a feature branch into a master. Git merge adds a new commit, preserving the history.
 
 5. What command uploads any GitHub repository to your computer using the git command?
 
+git remote add origin https://github.com/yourusername/your-repo-name.git
+git push -u origin master
 
 6. How do you write a commit message using the command? How do you push code in GitHub?
 
+git commit -m "message"
+git add.
+git commit -m 'messgase"
+git push origin main
 
 7. How do you make a Git repository?
+Create a directory to contain the project.
+Go into the new directory.
+Type git init.
+Write some code.
+Type git add to add the files (see the typical use page).
+Type git commit.
+The first file to create (and add and commit) is probably a ReadMe file, either as plain text or with Markdown, describing the project.
 
+Markdown allows you to add a bit of text markup, like hyperlinks, bold/italics, or to indicate code with a monospace font. Markdown is easily converted to html for viewing in a web browser, and GitHub will do this for you automatically.
 
 8. What is Git, and how does it work?
+
+Git is a version control keep tracks on all changes in git so it is useful for developers .
 
 
 
