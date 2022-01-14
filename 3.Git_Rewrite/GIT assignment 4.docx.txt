@@ -1,42 +1,41 @@
-﻿________________
-
-
-  
-
-
-
+﻿############################
 GIT Assignment 4
 
 
 1. How can new features be added to the main branch? What is a git conflict?
+New Features can be added to Main branch using git add . and git commit -m "message".
 
+Git  conflict example.suppose if i have two branch say 1.Main 2.DEV and 1.Main has 1 file eg 1.txt and 2.Dev has 1 file 1.txt and i already merged .suppoese if i change 3 line in 1.txt in Dev branch and try will
+have git merge conflict either i need to manually change dev branch 1.txt line 3.  
 
 2. How do I remove a branch from GIT?
 
+git branch -d branchname 
 
 3. What is the purpose of the git checkout command?
+with git checkout  we can create new branch and we can add files in that branch. we can also use git switch to create branch.
 
 
 4. What is the purpose of the git commit command?
-
+it will push the staging directory files into git repository .Also it will create new sha number 
 
 5. What is the purpose of the command 'git rm'?
-
+git rm will remove the file from working directory and it will effective until we do git add. and git commit 
 
 6. What is the purpose of the git log command?
-
+To Get the overview of git files in branch and commit,sha status .it is pretty handy command for checking the exact structure and view of git 
 
 7. What is the purpose of 'git add'?
 
+it will add the files from working directory to staging directory 
 
 8. In GIT, what is a 'bare repository'?
+A bare Git repository is typically used as a Remote Repository that is sharing a repository among several different people. You don't do work right inside the remote repository so there's no Working Tree (the files in your project that you edit), just bare repository data.
 
 
 9. What's the difference between git remote and git clone?
 
+git remote will push all the working repository into github cloud basically in internet
+git clone will clone the existing repository to our local working directory 
 
-
-
-
-
-________________
+##################### 
