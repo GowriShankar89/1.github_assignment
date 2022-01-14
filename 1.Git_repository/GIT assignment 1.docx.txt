@@ -1,0 +1,32 @@
+﻿
+GIT Assignment 1
+
+
+1. What is a git stash list?
+
+
+2. How do you get a list of all the files that have been updated in a given commit?
+
+
+3. What is a Git merge conflict?
+
+
+4. How do you distinguish between git fetch and git pull? How do you differentiate between Git Merge and Git Rebase?
+
+
+5. What command uploads any GitHub repository to your computer using the git command?
+
+
+6. How do you write a commit message using the command? How do you push code in GitHub?
+
+
+7. How do you make a Git repository?
+
+
+8. What is Git, and how does it work?
+
+
+
+
+
+
