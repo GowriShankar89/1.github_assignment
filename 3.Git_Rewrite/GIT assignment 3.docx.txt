@@ -4,24 +4,27 @@ GIT Assignment 3
 
 
 1. What is git stockpile, and how does it work? How do you use it?
-
+Stockpile supports the durable storage and retrieval of data. After storage, stockpile returns an entry that can be used to access the data later, and when no longer needed, the data can be atomically discard ed. Stockpile is explicitly designed to keep minimal state outside the filesystem.
 
 2. Describe the various branching strategies.
-
+A “branching strategy” refers to the strategy a software development team employs when writing, merging, and shipping code in the context of a version control system like Git. Software developers working as a team on the same codebase must share their changes with each other
 
 3. How do you remove data from Git without being removed from your system?
-
+git rm --cache 
 
 4. In Git, what does 'index' or 'hosting location' mean?
+The Git index is a staging area between the working directory and repository. It is used to build up a set of changes that you want to commit together. There are three places in Git where file changes can reside, and these are working directory, staging area, and the repository.
 
 
 5. What is the difference between 'git remote' and 'git duplicate'?
-
+The git remote command lets you create, view, and delete connections to other repositories. Remote connections are more like bookmarks rather than direct links into other repositories
+git duplicate is like forking or git clone
 
 6. What is Git Remote's purpose?
-
+The git remote command lets you create, view, and delete connections to other repositories. Remote connections are more like bookmarks rather than direct links into other repositories
 
 7. How can I clear up a git reflog?
+git reflog expire --expire-unreachable=now --all removes all references of unreachable commits in reflog . git gc --prune=now removes the commits themselves. Attention: Only using git gc --prune=now will not work since those commits are still referenced in the reflog.
 
 
 8. How can you distinguish between the git pull and git bring commands?
