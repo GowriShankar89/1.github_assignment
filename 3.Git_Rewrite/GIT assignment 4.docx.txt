@@ -1,0 +1,42 @@
+﻿________________
+
+
+  
+
+
+
+GIT Assignment 4
+
+
+1. How can new features be added to the main branch? What is a git conflict?
+
+
+2. How do I remove a branch from GIT?
+
+
+3. What is the purpose of the git checkout command?
+
+
+4. What is the purpose of the git commit command?
+
+
+5. What is the purpose of the command 'git rm'?
+
+
+6. What is the purpose of the git log command?
+
+
+7. What is the purpose of 'git add'?
+
+
+8. In GIT, what is a 'bare repository'?
+
+
+9. What's the difference between git remote and git clone?
+
+
+
+
+
+
+________________

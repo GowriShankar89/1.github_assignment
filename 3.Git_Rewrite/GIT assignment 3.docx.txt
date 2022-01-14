@@ -1,0 +1,39 @@
+﻿________________
+
+
+  
+
+
+
+GIT Assignment 3
+
+
+1. What is git stockpile, and how does it work? How do you use it?
+
+
+2. Describe the various branching strategies.
+
+
+3. How do you remove data from Git without being removed from your system?
+
+
+4. In Git, what does 'index' or 'hosting location' mean?
+
+
+5. What is the difference between 'git remote' and 'git duplicate'?
+
+
+6. What is Git Remote's purpose?
+
+
+7. How can I clear up a git reflog?
+
+
+8. How can you distinguish between the git pull and git bring commands?
+
+
+
+
+
+
+________________
