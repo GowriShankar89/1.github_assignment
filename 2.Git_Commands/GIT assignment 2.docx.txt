@@ -1,11 +1,6 @@
-﻿________________
-
-
-  
-
-
-
+﻿
 GIT Assignment 2
+################## 
 
 
 1. What does the command 'git status' do?
@@ -37,6 +32,4 @@ GIT Assignment 2
 
 
 
-
-
-________________
+#########################3
