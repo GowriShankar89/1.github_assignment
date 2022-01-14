@@ -1,0 +1,42 @@
+﻿________________
+
+
+  
+
+
+
+GIT Assignment 2
+
+
+1. What does the command 'git status' do?
+
+
+2. How to delete a Git local branch?
+
+
+3. How can I add a project to Git that already exists?
+
+
+4. What exactly is a Git fork? What are the distinctions between a fork, a branch, and a clone? 
+
+
+5. What is the difference between HEAD, working tree, and index in GIT? 
+
+
+6. Which GIT command is used to change branches?
+
+
+7. What is the difference between GitHub and Git?
+
+
+8. What are some of the advantages of using the Variation Control System? Which programming language is used in Git?
+
+
+9. List out some Git repository features.
+
+
+
+
+
+
+________________
